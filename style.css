@@ -143,11 +143,13 @@ body {
   position: relative;
   display: inline-block;
   transition: all 0.2s;
+  margin-top: 5rem;
 }
 
 .second:hover {
   transform: scale(1.07);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: skew(-5deg, -5deg);
 }
 
 .content-box {
@@ -441,6 +443,7 @@ body {
 .uheading-secondary:hover {
   transform: scale(1.07);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: skew(-5deg, -5deg);
 }
 
 .form-input {
@@ -591,6 +594,7 @@ body {
 .subheading:hover {
   transform: scale(1.07);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: skewy(-5deg);
 }
 
 .tourhead {
@@ -653,7 +657,7 @@ body {
     rgba(255, 119, 48, 0.85)
   );
   display: flex;
-  color: #000;
+  color: #fff;
   justify-content: center;
   text-align: center;
   transform: rotateY(180deg);
