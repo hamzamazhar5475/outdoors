@@ -2,23 +2,24 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-@import "base/base";
 @import "base/animations";
-@import "base/typography.scss";
+@import "base/base";
+@import "base/typography";
 @import "base/utilities";
 
+@import "components/bg-video";
 @import "components/button";
 @import "components/card";
-@import "components/composition.scss";
-@import "components/feature-box.scss";
-@import "components/stroy";
+@import "components/composition";
+@import "components/feature-box";
 @import "components/form";
-@import "components/bgvideos";
-@import "components/pop";
+@import "components/popup";
+@import "components/story";
 
-@import "layout/gird";
-@import "layout/header";
 @import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
 @import "layout/navigation";
 
 @import "pages/home";
+

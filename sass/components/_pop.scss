@@ -39,6 +39,10 @@
   &__img {
     display: block;
     width: 100%;
+
+    @include respond(tab-land) {
+      display: inline-block;
+    }
   }
 
   &__text {
